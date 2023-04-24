@@ -1,0 +1,51 @@
+.pd h1 {
+    background-color: #1b1b1b;
+    padding: 20px;
+}
+
+.pd-container {
+    margin-top: -30px;
+    background-color: #fff;
+    padding: 60px;
+    color: #111;
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center;
+}
+
+.pd-container div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.pd-container img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.pd-description {
+    font-size: 1.2rem;
+}
+
+.pd-price {
+    font-size: 1.5em;
+    background-color: #222222c9;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pd-volver {
+    border-radius: 20px;
+    color: #fff;
+    padding: 15px;
+    background-color: #1b1b1b;
+}
+
+.pd-volver:hover {
+    font-size: 1.1em;
+    color: #fff;
+}

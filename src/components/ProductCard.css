@@ -1,0 +1,33 @@
+.pd-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    color: black;
+    width: 300px;
+    height: 480px;
+    margin: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.pd-card:hover {
+    transform: scale(1.04);
+}
+
+.pd-card img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.pd-card p {
+    font-size: 1.5em;
+    background-color: #222222c9;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
